@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "6c069f08-b2ad-4760-980c-f02b07d6ecc5",
+		"name": "Node_Code_Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Import CSV AutoFi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "providerName",
+							"value": "Provider 1",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/autofi/import/csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"autofi",
+						"import",
+						"csv"
+					]
+				},
+				"description": "This API can store data from CSV to Database"
+			},
+			"response": []
+		}
+	]
+}
