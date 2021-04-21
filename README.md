@@ -2,6 +2,13 @@
 
 Build an API with a single endpoint that accepts a file upload in the CSV format
 
+## Code assumptions
+I assumed the following:
+    You can attach a CSV file per request to the API.
+    You need to provide the provider's name on each request.
+    I assumed that some of the column names have blank spaces. For instance "Create Date".
+
+
 ---
 ## Requirements
 
@@ -24,4 +31,6 @@ Build an API with a single endpoint that accepts a file upload in the CSV format
 
 ## Postman Collection
 
-Import `Node_Code_Challenge.postman_collection.json` in Postman then you can use the attached example of CSV vehicles-template.csv.
+Import `Node_Code_Challenge.postman_collection.json` in Postman then you can use the attached example of CSV /unit_testing_data/vehicles-template_provider1.csv.
+
+

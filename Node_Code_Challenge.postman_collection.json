@@ -16,7 +16,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": []
+							"src": "/Users/naincanales/Documents/code/codeChallenge/autofi/unit_testing_data/vehicles-template_provider1.csv"
 						},
 						{
 							"key": "providerName",

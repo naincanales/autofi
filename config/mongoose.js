@@ -1,7 +1,5 @@
-const mongoose = require('mongoose');
-const { MongoMemoryServer } = require('mongodb-memory-server');
- 
-
+import mongoose from 'mongoose';
+import MongoMemoryServer from 'mongodb-memory-server';
 
 const mongod = new MongoMemoryServer();
 

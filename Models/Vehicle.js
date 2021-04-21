@@ -1,7 +1,8 @@
-var mongoose = require('mongoose');
-var schema = mongoose.Schema;
 
-var vehicle = new schema({
+import mongoose from 'mongoose';
+const schema = mongoose.Schema;
+
+const vehicle = new schema({
     UUID : {type: String, default: ""},
     Make : {type: String, default: ""},
     Model : {type: String, default: ""},
@@ -19,5 +20,5 @@ var vehicle = new schema({
 });
 
 
-module.exports = mongoose.model('vehicle', vehicle);
+exports.default = mongoose.model('vehicle', vehicle);
  
